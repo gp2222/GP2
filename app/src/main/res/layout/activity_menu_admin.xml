@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorForeground"
+    tools:context=".menu_admin">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="501dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_height="match_parent"
+        tools:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="469dp"
+            app:srcCompat="@drawable/ksulogo"
+            tools:layout_height="100dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/logo"
+            tools:layout_width="150dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/button8"
+            android:layout_marginBottom="66dp"
+            android:background="@color/colorAccent"
+            android:text="خدمات مساندة"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:layout_width="150dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:background="@color/colorAccent"
+            android:text="القياديات"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:layout_above="@+id/button4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="خدمات الوحدة ووصف عنها"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:layout_alignTop="@+id/button5"
+            android:layout_toRightOf="@+id/button14"
+            android:layout_toEndOf="@+id/button14"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:background="@color/colorAccent"
+            android:text="إدارة الحسابات"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

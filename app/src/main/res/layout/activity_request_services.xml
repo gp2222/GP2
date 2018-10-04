@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".request_services">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ksulogo"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteY="43dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="طلب اجتماع"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="طلب دعم بحثي"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="طلب تعاقب إداري"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="طلب استقطاب القيادات الواعدة"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <RelativeLayout
+        android:layout_width="20dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_height="match_parent"
+        tools:layout_width="match_parent">
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

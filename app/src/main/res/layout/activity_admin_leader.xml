@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_leader">
+
+    <Button
+        android:id="@+id/button24"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="إداري"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:text="قيادي "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <RelativeLayout
+        android:layout_width="76dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_height="match_parent"
+        tools:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ksulogo"
+            android:layout_marginBottom="454dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="27dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:text=" اختر نوع المستخدم:"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:layout_width="150dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
